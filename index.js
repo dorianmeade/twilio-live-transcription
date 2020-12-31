@@ -13,6 +13,8 @@ const client = new speech.SpeechClient();
 // for db access
 const mysql = require('mysql');
 
+require('dot-env');
+
 
 // config stt transcription request
 const request = {
@@ -85,7 +87,7 @@ wss.on('connection', function connection(ws) {
                     // get call id
                     let callSID = msg.stop.callSid;
                     // get caller 
-                    const client = require('twilio')('ACd1f28d15f625eb3c262e8005b20c13e1', '146be372ed87b00ff363e160d0b35625');
+                    const client = require('twilio')(process.env.API_KEY, process.env.AUTH_TOKEN);
                     client.calls(callSID)
                     .fetch()
                     .then(call => {
