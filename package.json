@@ -1,0 +1,25 @@
+{
+  "name": "twilio-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorianmeade/twilio-live-transcription.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorianmeade/twilio-live-transcription/issues"
+  },
+  "homepage": "https://github.com/dorianmeade/twilio-live-transcription#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.5",
+    "express": "^4.17.1",
+    "ws": "^7.4.2"
+  }
+}
