@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "twilio-stream-300213",
+  "private_key_id": "807a9797b588a0b74ad1e74d417cbc4ed5723172",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCW9JgNUIVIGlUy\nxsbq54i1w7C/o3zr++q620I+5Bc6KlmNERmUFM8Q5dM3V6TXf8ynswc2/Cnuku0k\nvmX/BrxIEycNtwkjfgU/Jaj8naL0JFe4VfHkzlyj30eXCXkkrB5M56hM5TRju/qi\nGyypj1E981vQAf6OFbDduIXH0FSmntwB3cHdZy74fC6+wXv32/hkguGuDB9mP0ly\np4gBbTLhb7ghIrb0K9iY4DZAaeYiwPLhCrOwguSgcBbUbb7e5UaSWMxUwHT9df2Y\nnlVBi28cvrNZFXWFwduxTPtjY6SyBeLdMuYesd7JIioL/k5rMsFl5DqrNHqh4cJb\nbHyO05ThAgMBAAECggEAF5P2rUW2u6SuoAgKM9CcOtUTpgB8LO55Iwcc2W6OQ4iF\nL5J3LfjzarlAUgmUzBAVwC/SCwA8mxtEgmkMIgGZpkxPh5s03d/7eSSBuOCfqNsw\nVFt1in5tBoTZIrnZESWidJ1OXUxY8CcBURFGMD8cD71oyXGLoq0NULmsiPbSR1VA\nBh+NDu4WCMpfloyWLlfhokD1+tnp/z2Dj4znuQadiZXMp6VXxtfRxOwqtbX4t2wy\ns/eK6hBR6uckDk4UUAVub4P+/8U7oyFAyjFKpvbfzOxEB7Vgsja+FjYgYshQ2XOd\nU6RCs6VtDIDDyNgAaWHWQGUWFWM/2QRubRG7nPmVnQKBgQDFcLSCi5WeNeHLRehp\nER0yULyoKiin2Tt/i2XHnFzX3sMQzeyTW/P4GWB+OD1Jp0LF/iOFdHOsmAqQx6+G\nrmDJhjqtLE8wPUGKUpcvzgqUWZaqJghMYiSV5QmH27puirCOnSmdPImXTzPDoWUN\n4r/anJeSZ32UQQLbTSQv9tcLpwKBgQDDumDQDRLfghP/ZYDZV0AnasP+Nx8+AFoG\nSBz7RqLeb5JYtfSJz1TY1cgJjCmuz/vM7mJk9KlOz3VDfWNpx56lDf2p9IbB+m2w\ngEFLxnHjbchRyu/wq7gCDuHLBZjMVpaw/l1fdePv9qFsdA6wEDdbI4xePimX6yvt\naYcc6tHMNwKBgFpShfGWo5qd8a6JS5oNHzsuXi/cIX8vzJ07ixM2/+4tVTVxzwFW\ntpRQH6l+VuND5jMnYN6jeGuDnom/IBhP2601f9BLDer2iu4ZfFp9Oq/FEDzEa1Vu\nLGh6P9Lr/Symu8ByO2BYGmWi8P5U7iLdEYGT029BctyIpSLn9l8O4C/PAoGBAMIc\nwY8UqDcKZpLQM+1Y3sM424/vUwjGiIHaWwPJlhVMSbO5IQDboqY5vt3ZKC27D1q6\nwNKm4pLKpN1+KW3rD6daLMy1OkB/APIfAKMJ+EE5y4Vy4mupoiBIah5TOqrM5T47\nxpa58Ik36/gHUdnC+2Nj6f49YDrOfQ5DrkA7kj4ZAoGAccJGCxfVttJ0FEfQmxj3\nw8c82GwBs/xPVq4Z3ATxmYxwZr3ESsAkWclSE/3UcX3KreVifxnEM2tAkpqJ0Xkx\n7h27E73mI/H3Dsnd+v+cBtKT+81jTBavPWzaq8AjP8U71VM1jo/G8LXas9mwu4py\niwBIHKMWWTczZ6rP0ss8Oq4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dorian@twilio-stream-300213.iam.gserviceaccount.com",
+  "client_id": "115501710418247045378",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dorian%40twilio-stream-300213.iam.gserviceaccount.com"
+}
