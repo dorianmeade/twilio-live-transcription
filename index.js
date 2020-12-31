@@ -124,7 +124,7 @@ wss.on('connection', function connection(ws) {
     })
 })
 
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, "/index.html")));
+app.get('/ping', (req, res) => res.send('ok'));
 
 app.post('/', (req, res) => {
     res.set("Content-Type", "text/xml");
