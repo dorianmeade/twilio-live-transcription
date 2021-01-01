@@ -1,7 +1,10 @@
 const WebSocket = require('ws');
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
-const path = require('path')
+app.use(cors());
+app.use(express.json())
 
 const server = require('http').createServer(app);
 const wss = new WebSocket.Server({server});
@@ -94,7 +97,7 @@ wss.on('connection', function connection(ws) {
                         console.log(call.from)
                         
                         var con = mysql.createConnection({
-                            host: "localhost",
+                            host: "10.0.0.76",
                             user: "newuser",
                             password: "newpassword",
                             database: 'cadric'
@@ -119,6 +122,7 @@ wss.on('connection', function connection(ws) {
                 }
                 
                 recognizeStream.destroy();
+                //recognizeStream = null;
                 break;
         }
     })
@@ -140,5 +144,5 @@ app.post('/', (req, res) => {
     `);
 })
 
-const PORT = 3000;
+const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {console.log(`server listening at port ${PORT}`)});
