@@ -1,7 +1,12 @@
 const WebSocket = require('ws');
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
-const path = require('path')
+app.use(cors());
+app.use(express.json())
+
+
 
 const server = require('http').createServer(app);
 const wss = new WebSocket.Server({server});
@@ -118,8 +123,8 @@ wss.on('connection', function connection(ws) {
                     });
                 }
                 
-                //recognizeStream.destroy();
-                recognizeStream = null;
+                recognizeStream.destroy();
+                //recognizeStream = null;
                 break;
         }
     })
