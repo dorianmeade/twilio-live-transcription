@@ -118,7 +118,8 @@ wss.on('connection', function connection(ws) {
                     });
                 }
                 
-                recognizeStream.destroy();
+                //recognizeStream.destroy();
+                recognizeStream = null;
                 break;
         }
     })
