@@ -6,8 +6,6 @@ const app = express();
 app.use(cors());
 app.use(express.json())
 
-
-
 const server = require('http').createServer(app);
 const wss = new WebSocket.Server({server});
 
