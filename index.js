@@ -94,7 +94,7 @@ wss.on('connection', function connection(ws) {
                         console.log(call.from)
                         
                         var con = mysql.createConnection({
-                            host: "localhost",
+                            host: "10.0.0.76",
                             user: "newuser",
                             password: "newpassword",
                             database: 'cadric'
