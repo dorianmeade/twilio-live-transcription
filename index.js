@@ -18,8 +18,6 @@ const mysql = require('mysql');
 
 require('dotenv').config();
 
-console.log(process.env.TWILIO_ACCOUNT_SID)
-
 // config stt transcription request
 const request = {
     config: {
