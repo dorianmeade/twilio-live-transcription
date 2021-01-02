@@ -16,8 +16,9 @@ const client = new speech.SpeechClient();
 // for db access
 const mysql = require('mysql');
 
-require('dot-env');
+require('dotenv').config();
 
+console.log(process.env.TWILIO_ACCOUNT_SID)
 
 // config stt transcription request
 const request = {
@@ -90,14 +91,15 @@ wss.on('connection', function connection(ws) {
                     // get call id
                     let callSID = msg.stop.callSid;
                     // get caller 
-                    const client = require('twilio')(process.env.API_KEY, process.env.AUTH_TOKEN);
-                    client.calls(callSID)
+                    const twilioClient = require('twilio')(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_TOKEN);
+
+                    twilioClient.calls(callSID)
                     .fetch()
                     .then(call => {
                         console.log(call.from)
                         
                         var con = mysql.createConnection({
-                            host: "10.0.0.76",
+                            host: "localhost",
                             user: "newuser",
                             password: "newpassword",
                             database: 'cadric'
@@ -144,5 +146,5 @@ app.post('/', (req, res) => {
     `);
 })
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {console.log(`server listening at port ${PORT}`)});
